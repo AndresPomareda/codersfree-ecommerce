@@ -1,7 +1,14 @@
+@import 'container.css';
+@import 'nav.css';
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 [x-cloak] {
-    display: none;
+
+    display: none !important;
+
 }
