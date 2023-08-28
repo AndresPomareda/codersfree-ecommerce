@@ -12,7 +12,8 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css',
+                'resources/js/app.js'])
 
         <!-- Styles -->
         @livewireStyles
@@ -38,7 +39,7 @@
         <script>
             function dropdown() {
                 return {
-                    open: true,
+                    open: false,
                     show() {
                         if(this.open) {
                             // Se cierra el Menu

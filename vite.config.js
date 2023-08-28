@@ -6,7 +6,9 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
+                'resources/css/glider.min.css',
                 'resources/js/app.js',
+                'resources/js/glider.min.js',
             ],
             refresh: [
                 ...refreshPaths,
