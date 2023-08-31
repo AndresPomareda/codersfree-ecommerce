@@ -10,12 +10,11 @@
             </div>
             @livewire('category-products',['category' => $categories->first()])
         </section>
-
     </div>
 
     <script>
         new Glider(document.querySelector('.glider'), {
-            slidesToShow: 5,
+            slidesToShow: 5.5,
             slidesToScroll: 5,
             draggable: true,
             dots: '.dots',

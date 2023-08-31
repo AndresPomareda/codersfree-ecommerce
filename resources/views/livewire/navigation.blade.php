@@ -11,15 +11,12 @@
 
             <span class="text-sm hidden md:block">Categoria</span>
         </a>
-
         <a href="/" class="mx-6">
             <x-application-mark class="block h-9 w-auto" />
         </a>
-
         <div class="flex-1 hidden md:block">
             @livewire('search')
         </div>
-
         <!-- Settings Dropdown -->
         <div class="mx-6 relative hidden md:block">
             @auth
@@ -74,7 +71,6 @@
 
             @endauth
         </div>
-
         <div class="hidden md:block">
             <!-- Icono de Carrito de compras -->
             @livewire('dropdown-cart')
