@@ -12,10 +12,7 @@ class Category extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'name',
-        'slug',
-        'image',
-        'icon'
+        'name', 'slug', 'image', 'icon'
     ];
 
     //Relacion uno a muchos

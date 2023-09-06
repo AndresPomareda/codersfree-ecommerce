@@ -7,7 +7,8 @@
                     <h1 class="text-lg uppercase font-semibold text-gray-700">
                         {{ $category->name }}
                     </h1>
-                    <a href="" class="text-orange-500 hover:text-orange-400 hover:underline ml-2 font-semibold">
+                    <a href="{{ route('categories.show',$category) }}"
+                        class=" hover:text-orange-500 text-orange-400 hover:underline ml-2 font-semibold">
                             Ver más</a>
                 </div>
                 {{-- Se presentan los productos en pantalla --}}
